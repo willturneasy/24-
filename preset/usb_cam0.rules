@@ -1,0 +1,6 @@
+ACTION=="add", KERNEL=="video*",ATTR{index}=="0", KERNELS=="1-4.2:1.0",SUBSYSTEMS=="usb",MODE:="0777",SYMLINK+="video108"
+ACTION=="add", KERNEL=="video*",ATTR{index}=="0", KERNELS=="1-4.1:1.0",SUBSYSTEMS=="usb",MODE:="0777",SYMLINK+="video102"
+ACTION=="add", KERNEL=="video*",ATTR{index}=="0", KERNELS=="1-1.1:1.0",SUBSYSTEMS=="usb",MODE:="0777",SYMLINK+="video104"
+ACTION=="add", KERNEL=="video*",ATTR{index}=="0", KERNELS=="1-1.3:1.0",SUBSYSTEMS=="usb",MODE:="0777",SYMLINK+="video106"
+ACTION=="add", KERNEL=="video*",ATTR{index}=="0", KERNELS=="3-1:1.0",SUBSYSTEMS=="usb",MODE:="0777",SYMLINK+="video100"
+KERNEL=="ttyUSB*", ATTRS{idVendor}=="067b", ATTRS{idProduct}=="23a3", MODE:="0777", SYMLINK+="rtk"
